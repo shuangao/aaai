@@ -1,0 +1,81 @@
+\begin{equation}
+\begin{aligned}
+\min \qquad & L = \frac{1}{2}{\left| w \right|^2} + C \lambda \sum\limits_i {e_{1,i}^2}  + C \left( {1 - \lambda } \right)\sum\limits_i {e_{2,i}^2} \\
+s.t.\qquad& e_{1,i} = y_i - wx_i\\
+& e_{2,i} = s_i - wx_i\\
+& \lambda \in [0,1]
+\end{aligned}  
+\end{equation}
+Lagrangian:
+\begin{equation}
+L = \frac{1}{2}{\left| w \right|^2} + C[\lambda \sum\limits_i {e_{1,i}^2}  + \left( {1 - \lambda } \right)\sum\limits_i {e_{2,i}^2}]  + \sum\limits_i {{\alpha _i}\left( {y_i - wx_i - {e_{1,i}}} \right)}  + \sum\limits_i {{\beta _i}\left( {s_i - wx_i - {e_{2,i}}} \right)} 
+\end{equation}
+derivative:
+\begin{equation}
+\begin{aligned}
+\frac{{\partial L}}{{\partial w}}& = w - \sum\limits_i {\left( {{\alpha _i} + {\beta _i}} \right)} {x_i}=0 \rightarrow w = \sum\limits_i {\left( {{\alpha _i} + {\beta _i}} \right)} {x_i}\\
+\frac{{\partial L}}{{\partial {e_{1,i}}}} & = 2C\lambda {e_{1,i}} - {\alpha _i}=0 \rightarrow \alpha_i = 2C\lambda {e_{1,i}}\\
+\frac{{\partial L}}{{\partial {e_{2,i}}}}&= 2C\left( {1 - \lambda } \right){e_{2,i}} - {\beta _i}=0 \rightarrow \beta_i = 2C(1-\lambda)e_{2,i}\\
+\end{aligned}
+\end{equation}
+let $K$ be the kernel matrix:
+\begin{equation}
+\begin{aligned}
+K(\alpha+\beta)+\frac{\mathbf{I}}{2C\lambda}\alpha&=Y\\
+K(\alpha+\beta)+\frac{\mathbf{I}}{2C(1-\lambda)}\beta&=S
+\end{aligned}
+\end{equation}
+Sum up:
+\begin{equation}
+\begin{aligned}
+\frac{K(\alpha+\beta)}{(1-\lambda)}+\frac{\mathbf{I}}{2C\lambda(1-\lambda)}\alpha&=\frac{Y}{(1-\lambda) }\\
+\frac{K(\alpha+\beta)}{\lambda}+\frac{\mathbf{I}}{2C (1-\lambda)\lambda}\beta&=\frac{S}{\lambda}\\
+\frac{K(\alpha+\beta)}{\lambda(1-\lambda)}+\frac{\mathbf{I}(\beta+\alpha)}{2C(1-\lambda)\lambda}&=\frac{S}{\lambda}+\frac{Y}{1-\lambda}\\
+[K+\frac{\mathbf{I}}{2C}][\beta+\alpha]&=(1-\lambda)S+\lambda Y
+\end{aligned}
+\end{equation}
+let $M=[K+\frac{\mathbf{I}}{2C}]$, $\eta = [\alpha+\beta]$, $\eta'= M^{-1}Y$,$\eta''= M^{-1}S$
+we have:
+\[\eta = (1-\lambda)\eta''+\lambda\eta'\]
+According to \cite{cawley2006leave}, the Leave-one-out error of the model for example $x_i$ is:
+\[\lambda Y_i + (1-\lambda)S_i-\hat{Y_i} = (1-\lambda)\frac{\eta_i''}{M_{ii}^{-1}}+\lambda\frac{\eta_i'}{M_{ii}^{-1}}\]
+\[\hat{Y_i}(\lambda) = (S_i-\frac{\eta_i''}{{M_{ii}^{-1}}})+\lambda\left(Y_i-S_i+\frac{\eta_i''}{M_{ii}^{-1}}-\frac{\eta_i'}{M_{ii}^{-1}}\right)\]
+\subsection{Multi-class Loss}
+We use two kinds of loss function for multi-class: hinge loss and cross-entropy
+\subsubsection{Multi-class hinge loss}
+For multi-class, $i$ denotes the instance id and $j$ denotes the class id:
+\begin{equation}
+\hat{Y_{ij}}(\lambda) = (S_{ij}-\frac{\eta_{ij}''}{{M_{ii}^{-1}}})+\lambda\left(Y_{ij}-S_{ij}+\frac{\eta_{ij}''}{M_{ii}^{-1}}-\frac{\eta_{ij}'}{M_{ii}^{-1}}\right)
+\end{equation}
+Let 
+\[\mu_{ij} = \left(Y_{ij}-S_{ij}+\frac{\eta_{ij}''}{M_{ii}^{-1}}-\frac{\eta_{ij}'}{M_{ii}^{-1}}\right) \]
+and
+\[b_{ij}=S_{ij}-\frac{\eta_{ij}''}{{M_{ii}^{-1}}}\]
+\begin{equation}
+L_{h}\left( {\lambda ,i} \right) = \mathop {\max }\limits_r {\left[ {1 - {\varepsilon _{r,{y_i}}} + {{\hat Y}_{ir}}\left( {\lambda } \right) - {{\hat Y}_{i{y_i}}}\left( {\lambda } \right)} \right]}
+\end{equation}
+\begin{equation}
+\begin{aligned}
+\frac{\partial L_h^{(i)}}{\partial \lambda}&= 
+\begin{cases}
+0 & L_h^{(i)}=0\\
+\mu_{i,r}-\mu_{i,y_i}& \text{otherwise}
+\end{cases}\\
+\end{aligned}
+\end{equation}
+\subsubsection{Categorical Cross-entropy}
+With softmax activation:
+\begin{equation}
+\begin{aligned}
+P_{ij} &= \frac{e^{\hat{Y}_{ij}/T}}{\sum_{h} e^{\hat{Y}_{ih}/T}}\\
+L_{c}\left( {\lambda ,i} \right) &= -\sum_{j}Y_{ij}\log\left({P_{ij}}(\lambda)\right)\\
+\frac{\partial L_c^{(i)}}{\partial \hat{Y}_{ij}}&=\left(P_{ij}-Y_{ij}\right)
+\end{aligned}
+\end{equation}
+
+\[\frac{\partial L_c^{(i)}}{\partial \lambda}=\sum_{j}\mu_{ij}\left(P_{ij}-Y_{ij}\right)\]
+
+\input{multi-distill}
+
+
+

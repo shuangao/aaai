@@ -1,0 +1,11 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: aaai_main.aux
+The style file: aaai.bst
+Database file #1: research.bib
+Repeated entry---line 154 of file research.bib
+ : @article{urban2016deep
+ :                       ,
+I'm skipping whatever remains of this entry
+A bad cross reference---entry "KrizhevskyNIPS12"
+refers to entry "DBLP:conf/nips/2012", which doesn't exist
+Warning--I didn't find a database entry for "DBLP:conf/nips/2012"
+(There were 2 error messages)

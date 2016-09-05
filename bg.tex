@@ -1,0 +1,36 @@
+\textit{Distillation for domain adaptation} \cite{hinton2015distilling} and \textit{privileged information} \cite{vapnik2015learning} are two techniques that enable machines to learn from other machines. Both methods address the problem how to build a student model that can learn from the advanced teacher models. Recently, Lopez \textit{et al.} \cite{lopez2015unifying} proposed a framework called \textit{generalized distillation} that unifies both techniques and show that it can be applied in many scenarios.
+\subsection{Privileged information}
+In the original work of the privileged information \cite{vapnik2015learning}, the data can be represented as a collection of the triples:
+\[\{\left(x_1,x_1^*,y_1\right),\left(x_2,x_2^*,y_2\right) \dots \left(x_n,x_n^*,y_n\right)\}\]
+where each $(x_i,y_i)$ is a feature-label pair, and the novel element $x_i$ is additional information about the example $(x_i,y_i)$ provided by an intelligent teacher, such as to support the learning process. However, in the testing procedure, the learning machine is not able to obtain the privileged information from the teacher. Vapnik's learning using privileged information is one example of what we call machines-teaching machines: the paradigm where machines learn from other machines, in addition to training data. 
+\subsection{Distillation}
+Distillation uses a simple (student) machine learns a complex task by imitating the solution of a flexible (teacher) machine. For a $c$-class scenario, distillation works as follow: consider the data
+\[\{x_i,y_i\}_{i=1}^n, \qquad x\in R^d, y\in \Delta^c\]
+where $\Delta^c$ is a $c$-dimensional probability vector. In traditional learning, we try to learn a function $f_t$ that:
+\begin{equation}\label{eq:normal}
+f_t=\underset{f_t \in \mathcal{F}_t}{\arg \min}\frac{1}{n}\sum_{i=1}^{n}\ell\left(y_i,\sigma(f_t(x_i))\right)+\Omega(||f_t||)
+\end{equation}
+here $\sigma$ is the softmax operation:
+\[\sigma(z)_k=\frac{e^{z_k}}{\sum_{j=1}^{c}e^{z_j}}\]
+and $\ell$ is the cross-entropy loss function:
+\[\ell(y,\hat{y})=-\sum_{i=1}^{c}y_i\log\hat{y}_i\]
+In distillation, we try to learn the student machine $f_s$ to imitate the teacher machine $f_t$. During the learning process, $f_s$ can receive the soft label $s_i$ from the teacher machine $f_t$ for each training example $x_i$.
+\begin{equation}\label{eq:softmax_T}
+s_i=\sigma(f_t(x_i)/T)
+\end{equation}
+where $T$ is the temperature for distillation. It is worthy to note that in distillation, $f_t$ can either be a single large complex neural network or an ensemble of some complex classifiers. We can see that the soft label $s_i$, which reveals the class dependency, is more informative than the class label $y_i$.
+
+The student machine can be learned by:
+\begin{equation}\label{eq:distill}
+f_s=\underset{f_s \in \mathcal{F}_s}{\arg \min}\frac{1}{n}\sum_{i=1}^{n}\left[\lambda\ell\left(y_i,\sigma(f_s(x_i))\right)+(1-\lambda)\ell\left(s_i,\sigma(f_s(x_i))\right)\right]
+\end{equation}
+here, $\mathcal{F}_s$ is a simpler function class than $\mathcal{F}_t$ and $\lambda$ is the imitation parameter to balance the importance between the hard label $y_i$ and the soft label $s_i$. The temperature $T>0$ controls how do we want to smooth the probability from the teacher $f_t$. Higher temperature leads to softer label.
+
+\subsection{Generalized distillation}
+Generalized distillation (GD) tries to unify the two frameworks together while using the soft label as the privileged information. The process of generalized distillation is as follows:
+
+\begin{enumerate}
+\item Learn teacher ${f}_t$ using the input-output pairs $\{x^*_i,y_i\}_{i=1}^n$ and Eq. \ref{eq:normal}.
+\item Compute teacher soft labels $s_i$, using the temperature parameter $T > 0$.
+\item Learn the student ${f}_s$ using the pair $\{\left(x_i,y_i\right),\left(x_i,s_i\right)\}_{i=1}^n$ and imitation parameter $\lambda$.
+\end{enumerate}

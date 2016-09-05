@@ -1,0 +1,68 @@
+\documentclass[11pt,onecolumn]{article}
+\usepackage{latexsym}
+\usepackage{url}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+\usepackage{geometry}
+\usepackage{subfig}
+\geometry{left=2.0cm,right=2.0cm, top=2.0cm, bottom=2.0cm}
+\usepackage{fancyhdr}
+\usepackage{longtable}
+\usepackage{url}
+\usepackage{leftidx}
+\usepackage{graphicx,grffile}
+\usepackage{epstopdf}
+\usepackage{multirow,bigstrut}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{subfig}
+\usepackage{soul,color}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+\newcommand{\algorithmicbreak}{\textbf{break}}
+%\usepackage{subcaption}
+\usepackage{caption}
+\newcommand\figref[1]{Figure \ref{#1}}
+\linespread{1}
+\author{shuang ao\\
+}
+\title{
+\large\textbf{Fast Generalized Distillation for Domain Adaptation}
+}
+\frenchspacing
+\begin{document}
+\maketitle
+\begin{abstract}
+Semi-Supervised domain adaptation (SSDA) can be applied in many real applications. In this paper, we propose our paradigm GDDA, that uses the recently proposed framework \textit{Generalized Distillation} \cite{lopez2015unifying} to solve the LSLD problem.
+We demonstrate the reason why GDDA can work for SPLD problem and show that it can work in the different setting such as unsupervised and semi-supervised learning scenarios. Then to make GDDA more practical for real applications, we propose a novel parameter estimation method, called GDDA-SVM which uses SVM as the base learner for GDDA and can effectively estimate the key parameter of GDDA, i.e. the imitation parameter. Specifically, we use $\ell_2$-loss in GDDA-SVM and show that we can effectively estimate the imitation parameter by minimizing the Leave-one-out loss of the target model on the training data. Experiment results show that our method can estimate the imitation parameter effectively in domain adaptation.
+
+%In Generalized Distillation, the imitation parameter controls the importance of the soft label which greatly affects the performance of the student model for many tasks such as domain adaptation. We show that to learn a good student model, we should use the imitation parameter that can minimize the training loss. In this paper, we propose a fast algorithm to determine the imitation parameter of Generalized Distillation for Domain Adaptation (GDDA). We use $\ell_2$-loss in GDDA and show that we can effectively estimate the imitation parameter by minimizing the Leave-one-out loss of the target model on the training data. Experiment results show that our method can estimate the imitation parameter effectively in domain adaptation.
+\end{abstract}
+\section{Introduction}
+\input{intro2}
+
+%\input{intro.tex}
+
+%\section{Background}
+%\input{bg}
+
+\section{Related Work}\label{sec:work}
+\input{work2}
+
+\section{Generalized Distillation for Domain Adaptation}\label{sec:gdda}
+\input{gd}
+\input{GDDA}
+
+\section{GDDA-SVM}\label{sec:svm}
+\input{multi-distill.tex}
+
+\section{Experiments}\label{sec:exp}
+\input{exp}
+
+\section{Conclusion}\label{sec:con}
+In this paper, we propose a framework called \textit{Generalized Distillation} that can effectively leverage the knowledge from the source domain in the SSDA scenario. We illustrate several advantages of GDDA such as effective in small data regimes, compatible with various of kinds of classifiers and effective in knowledge transfer. In particular, we demonstrate that the knowledge can be effectively transferred between different domains by distillation with the unlabeled examples in the target domain. Moreover, we have shown that the performance of the target model can be further improved with the help of just one labeled example for each class. We also address the importance of the imitation parameter in GDDA. To make GDDA more effective in real applications, we proposed a method called GDDA-SVM which uses SVM as the base learner and can effectively determine the imitation parameter. 
+\bibliographystyle{abbrv}
+\bibliography{research}
+\end{document}

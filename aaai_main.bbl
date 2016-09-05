@@ -1,0 +1,202 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Ba and Caruana}{2014}]{ba2014deep}
+Ba, J., and Caruana, R.
+\newblock 2014.
+\newblock Do deep nets really need to be deep?
+\newblock In {\em Advances in neural information processing systems},
+  2654--2662.
+
+\bibitem[\protect\citeauthoryear{Cawley}{2006}]{cawley2006leave}
+Cawley, G.~C.
+\newblock 2006.
+\newblock Leave-one-out cross-validation based model selection criteria for
+  weighted ls-svms.
+\newblock In {\em Neural Networks, 2006. IJCNN'06. International Joint
+  Conference on},  1661--1668.
+\newblock IEEE.
+
+\bibitem[\protect\citeauthoryear{Cristianini and
+  Shawe-Taylor}{2000}]{cristianini2000introduction}
+Cristianini, N., and Shawe-Taylor, J.
+\newblock 2000.
+\newblock {\em An introduction to support vector machines and other
+  kernel-based learning methods}.
+\newblock Cambridge university press.
+
+\bibitem[\protect\citeauthoryear{Daum{\'e}~III, Kumar, and
+  Saha}{2010}]{daume2010frustratingly}
+Daum{\'e}~III, H.; Kumar, A.; and Saha, A.
+\newblock 2010.
+\newblock Frustratingly easy semi-supervised domain adaptation.
+\newblock In {\em Proceedings of the 2010 Workshop on Domain Adaptation for
+  Natural Language Processing},  53--59.
+\newblock Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Deng \bgroup et al\mbox.\egroup
+  }{2009}]{imagenet_cvpr09}
+Deng, J.; Dong, W.; Socher, R.; Li, L.-J.; Li, K.; and Fei-Fei, L.
+\newblock 2009.
+\newblock {ImageNet: A Large-Scale Hierarchical Image Database}.
+\newblock In {\em CVPR09}.
+
+\bibitem[\protect\citeauthoryear{Donahue \bgroup et al\mbox.\egroup
+  }{2013a}]{donahue2013semi}
+Donahue, J.; Hoffman, J.; Rodner, E.; Saenko, K.; and Darrell, T.
+\newblock 2013a.
+\newblock Semi-supervised domain adaptation with instance constraints.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition},  668--675.
+
+\bibitem[\protect\citeauthoryear{Donahue \bgroup et al\mbox.\egroup
+  }{2013b}]{Donahue_2013_CVPR}
+Donahue, J.; Hoffman, J.; Rodner, E.; Saenko, K.; and Darrell, T.
+\newblock 2013b.
+\newblock Semi-supervised domain adaptation with instance constraints.
+\newblock In {\em The IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}.
+
+\bibitem[\protect\citeauthoryear{Duan \bgroup et al\mbox.\egroup
+  }{2012}]{duan2012visual}
+Duan, L.; Xu, D.; Tsang, I. W.-H.; and Luo, J.
+\newblock 2012.
+\newblock Visual event recognition in videos by learning from web data.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence}
+  34(9):1667--1680.
+
+\bibitem[\protect\citeauthoryear{Duan, Xu, and Tsang}{2012}]{duan2012learning}
+Duan, L.; Xu, D.; and Tsang, I.
+\newblock 2012.
+\newblock Learning with augmented features for heterogeneous domain adaptation.
+\newblock {\em arXiv preprint arXiv:1206.4660}.
+
+\bibitem[\protect\citeauthoryear{Gupta, Hoffman, and
+  Malik}{2016}]{Gupta_2016_CVPR}
+Gupta, S.; Hoffman, J.; and Malik, J.
+\newblock 2016.
+\newblock Cross modal distillation for supervision transfer.
+\newblock In {\em The IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}.
+
+\bibitem[\protect\citeauthoryear{Hinton, Vinyals, and
+  Dean}{2015}]{hinton2015distilling}
+Hinton, G.; Vinyals, O.; and Dean, J.
+\newblock 2015.
+\newblock Distilling the knowledge in a neural network.
+\newblock {\em arXiv preprint arXiv:1503.02531}.
+
+\bibitem[\protect\citeauthoryear{Karl, Bidigare, and
+  Letelier}{2001}]{karl2001long}
+Karl, D.; Bidigare, R.; and Letelier, R.
+\newblock 2001.
+\newblock Long-term changes in plankton community structure and productivity in
+  the north pacific subtropical gyre: The domain shift hypothesis.
+\newblock {\em Deep Sea Research Part II: Topical Studies in Oceanography}
+  48(8):1449--1470.
+
+\bibitem[\protect\citeauthoryear{Krizhevsky, Sutskever, and
+  Hinton}{2012}]{KrizhevskyNIPS12}
+Krizhevsky, A.; Sutskever, I.; and Hinton, G.~E.
+\newblock 2012.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em NIPS},  1106--1114.
+
+\bibitem[\protect\citeauthoryear{Kuzborskij and
+  Orabona}{2013}]{kuzborskij2013stability}
+Kuzborskij, I., and Orabona, F.
+\newblock 2013.
+\newblock Stability and hypothesis transfer learning.
+\newblock In {\em Proceedings of the 30th International Conference on Machine
+  Learning},  942--950.
+
+\bibitem[\protect\citeauthoryear{Lopez-Paz \bgroup et al\mbox.\egroup
+  }{2015}]{lopez2015unifying}
+Lopez-Paz, D.; Bottou, L.; Sch{\"o}lkopf, B.; and Vapnik, V.
+\newblock 2015.
+\newblock Unifying distillation and privileged information.
+\newblock {\em arXiv preprint arXiv:1511.03643}.
+
+\bibitem[\protect\citeauthoryear{Luo \bgroup et al\mbox.\egroup
+  }{2016}]{luo2016face}
+Luo, P.; Zhu, Z.; Liu, Z.; Wang, X.; and Tang, X.
+\newblock 2016.
+\newblock Face model compression by distilling knowledge from neurons.
+\newblock In {\em Thirtieth AAAI Conference on Artificial Intelligence}.
+
+\bibitem[\protect\citeauthoryear{Motiian \bgroup et al\mbox.\egroup
+  }{2016}]{Motiian_2016_CVPR}
+Motiian, S.; Piccirilli, M.; Adjeroh, D.~A.; and Doretto, G.
+\newblock 2016.
+\newblock Information bottleneck learning using privileged information for
+  visual recognition.
+\newblock In {\em The IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}.
+
+\bibitem[\protect\citeauthoryear{Pan and Yang}{2010}]{pan2010survey}
+Pan, S.~J., and Yang, Q.
+\newblock 2010.
+\newblock A survey on transfer learning.
+\newblock {\em Knowledge and Data Engineering, IEEE Transactions on}
+  22(10):1345--1359.
+
+\bibitem[\protect\citeauthoryear{Romero \bgroup et al\mbox.\egroup
+  }{2014}]{romero2014fitnets}
+Romero, A.; Ballas, N.; Kahou, S.~E.; Chassang, A.; Gatta, C.; and Bengio, Y.
+\newblock 2014.
+\newblock Fitnets: Hints for thin deep nets.
+\newblock {\em arXiv preprint arXiv:1412.6550}.
+
+\bibitem[\protect\citeauthoryear{Shalev-Shwartz \bgroup et al\mbox.\egroup
+  }{2011}]{shalev2011pegasos}
+Shalev-Shwartz, S.; Singer, Y.; Srebro, N.; and Cotter, A.
+\newblock 2011.
+\newblock Pegasos: Primal estimated sub-gradient solver for svm.
+\newblock {\em Mathematical programming} 127(1):3--30.
+
+\bibitem[\protect\citeauthoryear{Sharmanska, Quadrianto, and
+  Lampert}{2013}]{Sharmanska_2013_ICCV}
+Sharmanska, V.; Quadrianto, N.; and Lampert, C.~H.
+\newblock 2013.
+\newblock Learning to rank using privileged information.
+\newblock In {\em The IEEE International Conference on Computer Vision (ICCV)}.
+
+\bibitem[\protect\citeauthoryear{Tzeng \bgroup et al\mbox.\egroup
+  }{2015}]{Tzeng_2015_ICCV}
+Tzeng, E.; Hoffman, J.; Darrell, T.; and Saenko, K.
+\newblock 2015.
+\newblock Simultaneous deep transfer across domains and tasks.
+\newblock In {\em The IEEE International Conference on Computer Vision (ICCV)}.
+
+\bibitem[\protect\citeauthoryear{Urban \bgroup et al\mbox.\egroup
+  }{2016}]{urban2016deep}
+Urban, G.; Geras, K.~J.; Kahou, S.~E.; Aslan, O.; Wang, S.; Caruana, R.;
+  Mohamed, A.; Philipose, M.; and Richardson, M.
+\newblock 2016.
+\newblock Do deep convolutional nets really need to be deep (or even
+  convolutional)?
+\newblock {\em arXiv preprint arXiv:1603.05691}.
+
+\bibitem[\protect\citeauthoryear{Vapnik and
+  Izmailov}{2015}]{vapnik2015learning}
+Vapnik, V., and Izmailov, R.
+\newblock 2015.
+\newblock Learning using privileged information: Similarity control and
+  knowledge transfer.
+\newblock {\em Journal of Machine Learning Research} 16:2023--2049.
+
+\bibitem[\protect\citeauthoryear{Vapnik}{1999}]{vapnik1999overview}
+Vapnik, V.~N.
+\newblock 1999.
+\newblock An overview of statistical learning theory.
+\newblock {\em IEEE transactions on neural networks} 10(5):988--999.
+
+\bibitem[\protect\citeauthoryear{Yao \bgroup et al\mbox.\egroup
+  }{2015}]{yao2015semi}
+Yao, T.; Pan, Y.; Ngo, C.-W.; Li, H.; and Mei, T.
+\newblock 2015.
+\newblock Semi-supervised domain adaptation with subspace learning for visual
+  recognition.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition},  2142--2150.
+
+\end{thebibliography}
