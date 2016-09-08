@@ -1,12 +1,12 @@
-In step 3 of GDDA, we have to decide the value for the imitation parameter. According to \eqref{eq:lambda_constraint}, to achieve the best performance of the target model, the imitation parameter should be set to minimize the training error. In this section, we illustrate our method GDDA-SVM that uses SVM as the base learner and can effectively estimate the imitation parameter.
+In step 3 of GDSDA, we have to decide the value for the imitation parameter. According to \eqref{eq:lambda_constraint}, to achieve the best performance of the target model, the imitation parameter should be set to minimize the training error. In this section, we illustrate our method GDSDA-SVM that uses SVM as the base learner and can effectively estimate the imitation parameter.
 \subsection{Distillation with multiple sources}
 As we discussed Section \ref{sec:key}, we should find a method that can estimate the optimal imitation parameter effectively for real applications. 
-To solve this problem, we propose a novel method that can determine the imitation parameter $\lambda$ autonomously, called GDDA-SVM. In our GDDA-SVM, instead of using cross-entropy loss, we use Mean Squared Error (MSE) as our loss function for the following two reasons: (1) Some recently work \cite{ba2014deep,luo2016face,romero2014fitnets,urban2016deep} show that MSE is also an efficient measurement for the targets model to mimic the behavior of the source model. (2) MSE can provide a closed form cross-validation error estimation and help us to choose the proper imitation parameter effectively. 
+To solve this problem, we propose a novel method that can determine the imitation parameter $\lambda$ autonomously, called GDSDA-SVM. In our GDSDA-SVM, instead of using cross-entropy loss, we use Mean Squared Error (MSE) as our loss function for the following two reasons: (1) Some recently work \cite{ba2014deep,luo2016face,romero2014fitnets,urban2016deep} show that MSE is also an efficient measurement for the targets model to mimic the behavior of the source model. (2) MSE can provide a closed form cross-validation error estimation and help us to choose the proper imitation parameter effectively. 
 
 \begin{figure}
 \centering
 \includegraphics[scale=.4]{figure/multi-GDDA.png}
-\caption{Illustration of GDDA training process.}
+\caption{Illustration of GDSDA training process.}
 \end{figure}
 
 Suppose we have $L$ examples $\{x_i,y_i\}_{i=1}^L$ from and $N$ classes in the target domain where $X\in R^{L\times d}, Y\in R^{L\times N}$. Meanwhile, there are $M-1$ the source (teacher) models providing the soft labels $\{Y^*_i\}_{i=1}^{M-1}$ for each of the $L$ examples.
@@ -91,7 +91,7 @@ The derivative can be written as:
 \end{aligned}
 \end{equation}
 \begin{algorithm}[t]
-	\caption{GDDA-SVM}\label{alg:svm}
+	\caption{GDSDA-SVM}\label{alg:svm}
 	\begin{algorithmic}
 		\Require Input examples $X=\{x_1,...,x_L\}$, number of classes $N$, size of sources $M$, 3D label matrix, $S=[Y_1,Y_2,...,Y_{M}]$ with size $L\times M \times N$, temperature $T$, optimization iteration $iter$
 		\Ensure Target model $f_t = Wx$
@@ -125,7 +125,7 @@ The derivative can be written as:
     \EndFor
 \end{algorithmic}	
 \end{algorithm}
-In addition, we describe GDDA-SVM in Algorithm \ref{alg:svm}. As the optimization problem \eqref{eq:loo_loss} is strongly convex, it is easy to proof that Algorithm \ref{alg:lambda} can converge to the optimal $\lambda$ with the rate of $O(\log(t)/t)$ where $t$ is the optimization iteration\footnote{The proof is similar to the proof of Lemma 1 in \cite{shalev2011pegasos}.}. 
+In addition, we describe GDSDA-SVM in Algorithm \ref{alg:svm}. As the optimization problem \eqref{eq:loo_loss} is strongly convex, it is easy to proof that Algorithm \ref{alg:lambda} can converge to the optimal $\lambda$ with the rate of $O(\log(t)/t)$ where $t$ is the optimization iteration\footnote{The proof is similar to the proof of Lemma 1 in \cite{shalev2011pegasos}.}. 
 
 
 

@@ -40,7 +40,7 @@
 % The file aaai.sty is the style file for AAAI Press
 % proceedings, working notes, and technical reports.
 %
-\title{Fast Generalized Distillation for Domain Adaptation}
+\title{Fast Generalized Distillation for Semi-supervised Domain Adaptation}
 %\author{AAAI Press\\
 %Association for the Advancement of Artificial Intelligence\\
 %2275 East Bayshore Road, Suite 160\\
@@ -49,8 +49,8 @@
 \maketitle
 \begin{abstract}
 \begin{quote}
-Semi-Supervised domain adaptation (SSDA) can be applied in many real applications. In this paper, we propose our paradigm, called GDDA, that uses the recently proposed framework \textit{Generalized Distillation} \cite{lopez2015unifying} to solve the SSDA problem.
-We demonstrate the reason why GDDA can work for SSDA problem and show that it can work in the different setting such as unsupervised and semi-supervised learning scenarios. Then to make GDDA more practical for real applications, we propose a novel parameter estimation method, called GDDA-SVM which uses SVM as the base learner for GDDA and can effectively estimate the key parameter of GDDA, i.e. the imitation parameter. Specifically, we use $\ell_2$-loss in GDDA-SVM and show that we can effectively estimate the imitation parameter by minimizing the Leave-one-out loss of the target model on the training data. Experiment results show that our method can estimate the imitation parameter effectively in domain adaptation.
+Semi-supervised domain adaptation (SDA) can be applied in many real applications. In this paper, we propose our paradigm, called GDSDA, that uses the recently proposed framework \textit{Generalized Distillation} (GD) \cite{lopez2015unifying} to solve the SDA problem.
+We demonstrate the reason why GDSDA can work for SDA problem and show that it can work in the different setting such as unsupervised and semi-supervised learning scenarios. Then to make GDSDA more practical for real applications, we propose a novel parameter estimation method, called GDSDA-SVM which uses SVM as the base learner for GDSDA and can effectively estimate the key parameter of GDSDA, i.e. the imitation parameter. Specifically, we use $\ell_2$-loss in GDSDA-SVM and show that we can effectively estimate the imitation parameter by minimizing the Leave-one-out loss of the target model on the training data. Experiment results show that our method can estimate the imitation parameter effectively in domain adaptation.
 \end{quote}
 \end{abstract}
 
@@ -65,18 +65,18 @@ We demonstrate the reason why GDDA can work for SSDA problem and show that it ca
 \section{Related Work}\label{sec:work}
 \input{work2}
 
-\section{Generalized Distillation for Domain Adaptation}\label{sec:gdda}
+\section{Generalized Distillation for Semi-supervised Domain Adaptation}\label{sec:gdda}
 \input{gd}
 \input{GDDA}
 
-\section{GDDA-SVM}\label{sec:svm}
+\section{GDSDA-SVM}\label{sec:svm}
 \input{multi-distill.tex}
 
 \section{Experiments}\label{sec:exp}
 \input{exp}
 
 \section{Conclusion}\label{sec:con}
-In this paper, we propose a framework called \textit{Generalized Distillation} that can effectively leverage the knowledge from the source domain in the SSDA scenario. We illustrate several advantages of GDDA such as effective in small data regimes, compatible with various of kinds of classifiers and effective in knowledge transfer. In particular, we demonstrate that the knowledge can be effectively transferred between different domains by distillation with the unlabeled examples in the target domain. Moreover, we have shown that the performance of the target model can be further improved with the help of just one labeled example for each class. We also address the importance of the imitation parameter in GDDA. To make GDDA more effective in real applications, we proposed a method called GDDA-SVM which uses SVM as the base learner and can effectively determine the imitation parameter. 
+In this paper, we propose a framework called \textit{Generalized Distillation} that can effectively leverage the knowledge from the source domain in the SDA scenario. We illustrate several advantages of GDSDA such as effective in small data regimes, compatible with various of kinds of classifiers and effective in knowledge transfer. In particular, we demonstrate that the knowledge can be effectively transferred between different domains by distillation with the unlabeled examples in the target domain. Moreover, we have shown that the performance of the target model can be further improved with the help of just one labeled example for each class. We also address the importance of the imitation parameter in GDSDA. To make GDSDA more effective in real applications, we proposed a method called GDSDA-SVM which uses SVM as the base learner and can effectively determine the imitation parameter. 
 \bibliographystyle{aaai}
 \bibliography{research}
 \end{document}
