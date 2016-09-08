@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.10.17)  4 SEP 2016 21:59
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.10.17)  7 SEP 2016 16:46
 entering extended mode
 **aaai_main.tex
 (D:\LaTex_Files\aaai\aaai_main.tex
@@ -470,12 +470,17 @@ Underfull \hbox (badness 1215) in paragraph at lines 5--67
 []\OT1/ptm/m/n/10 There are also many works re-lated to GD in com-
  []
 
-(D:\LaTex_Files\aaai\gd.tex
+(D:\LaTex_Files\aaai\gd.tex <figure/GD.png, id=14, 484.209pt x 163.812pt>
+File: figure/GD.png Graphic file (type png)
+
+<use figure/GD.png>
+Package pdftex.def Info: figure/GD.png used on input line 4.
+(pdftex.def)             Requested size: 193.68016pt x 65.52362pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
-) (D:\LaTex_Files\aaai\GDDA.tex [2] [3])
-(D:\LaTex_Files\aaai\multi-distill.tex
-<figure/multi-GDDA.png, id=26, 622.9674pt x 246.1998pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+) (D:\LaTex_Files\aaai\GDDA.tex [2 <D:/LaTex_Files/aaai/figure/GD.png>] [3]) (D
+:\LaTex_Files\aaai\multi-distill.tex
+<figure/multi-GDDA.png, id=29, 622.9674pt x 246.1998pt>
 File: figure/multi-GDDA.png Graphic file (type png)
 
 <use figure/multi-GDDA.png>
@@ -494,7 +499,7 @@ num-ber of
  []
 
 ) (D:\LaTex_Files\aaai\exp.tex [5]
-<figure/dslrtoamazonlabeled1unlabeled10.png, id=36, 578.16pt x 361.35pt>
+<figure/dslrtoamazonlabeled1unlabeled10.png, id=38, 578.16pt x 361.35pt>
 File: figure/dslrtoamazonlabeled1unlabeled10.png Graphic file (type png)
 
 <use figure/dslrtoamazonlabeled1unlabeled10.png>
@@ -502,7 +507,7 @@ Package pdftex.def Info: figure/dslrtoamazonlabeled1unlabeled10.png used on inp
 ut line 19.
 (pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
 
-<figure/dslrtoamazonlabeled1unlabeled15.png, id=37, 578.16pt x 361.35pt>
+<figure/dslrtoamazonlabeled1unlabeled15.png, id=39, 578.16pt x 361.35pt>
 File: figure/dslrtoamazonlabeled1unlabeled15.png Graphic file (type png)
 
 <use figure/dslrtoamazonlabeled1unlabeled15.png>
@@ -510,7 +515,7 @@ Package pdftex.def Info: figure/dslrtoamazonlabeled1unlabeled15.png used on inp
 ut line 20.
 (pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
 
-<figure/dslrtoamazonlabeled1unlabeled20.png, id=38, 578.16pt x 361.35pt>
+<figure/dslrtoamazonlabeled1unlabeled20.png, id=40, 578.16pt x 361.35pt>
 File: figure/dslrtoamazonlabeled1unlabeled20.png Graphic file (type png)
 
 <use figure/dslrtoamazonlabeled1unlabeled20.png>
@@ -518,7 +523,7 @@ Package pdftex.def Info: figure/dslrtoamazonlabeled1unlabeled20.png used on inp
 ut line 21.
 (pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
 
-<figure/webcamtoamazonlabeled1unlabeled10.png, id=39, 578.16pt x 361.35pt>
+<figure/webcamtoamazonlabeled1unlabeled10.png, id=41, 578.16pt x 361.35pt>
 File: figure/webcamtoamazonlabeled1unlabeled10.png Graphic file (type png)
 
 <use figure/webcamtoamazonlabeled1unlabeled10.png>
@@ -526,7 +531,7 @@ Package pdftex.def Info: figure/webcamtoamazonlabeled1unlabeled10.png used on i
 nput line 22.
 (pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
 
-<figure/webcamtoamazonlabeled1unlabeled15.png, id=40, 578.16pt x 361.35pt>
+<figure/webcamtoamazonlabeled1unlabeled15.png, id=42, 578.16pt x 361.35pt>
 File: figure/webcamtoamazonlabeled1unlabeled15.png Graphic file (type png)
 
 <use figure/webcamtoamazonlabeled1unlabeled15.png>
@@ -534,7 +539,7 @@ Package pdftex.def Info: figure/webcamtoamazonlabeled1unlabeled15.png used on i
 nput line 23.
 (pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
 
-<figure/webcamtoamazonlabeled1unlabeled20.png, id=41, 578.16pt x 361.35pt>
+<figure/webcamtoamazonlabeled1unlabeled20.png, id=43, 578.16pt x 361.35pt>
 File: figure/webcamtoamazonlabeled1unlabeled20.png Graphic file (type png)
 
 <use figure/webcamtoamazonlabeled1unlabeled20.png>
@@ -542,7 +547,7 @@ Package pdftex.def Info: figure/webcamtoamazonlabeled1unlabeled20.png used on i
 nput line 24.
 (pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
 
-<figure/cmp.png, id=42, 722.7pt x 289.08pt>
+<figure/cmp.png, id=44, 722.7pt x 289.08pt>
 File: figure/cmp.png Graphic file (type png)
  <use figure/cmp.png>
 Package pdftex.def Info: figure/cmp.png used on input line 36.
@@ -553,32 +558,32 @@ abeled1unlabeled10.png> <D:/LaTex_Files/aaai/figure/dslrtoamazonlabeled1unlabel
 ed15.png> <D:/LaTex_Files/aaai/figure/dslrtoamazonlabeled1unlabeled20.png> <D:/
 LaTex_Files/aaai/figure/webcamtoamazonlabeled1unlabeled10.png> <D:/LaTex_Files/
 aaai/figure/webcamtoamazonlabeled1unlabeled15.png> <D:/LaTex_Files/aaai/figure/
-webcamtoamazonlabeled1unlabeled20.png> <D:/LaTex_Files/aaai/figure/cmp.png>])
-[7] (D:\LaTex_Files\aaai\aaai_main.aux) ) 
+webcamtoamazonlabeled1unlabeled20.png>]) [7 <D:/LaTex_Files/aaai/figure/cmp.png
+>] (D:\LaTex_Files\aaai\aaai_main.aux) ) 
 Here is how much of TeX's memory you used:
- 5301 strings out of 493921
- 77587 string characters out of 3152883
- 154831 words of memory out of 3000000
- 8443 multiletter control sequences out of 15000+200000
+ 5304 strings out of 493921
+ 77645 string characters out of 3152883
+ 156797 words of memory out of 3000000
+ 8446 multiletter control sequences out of 15000+200000
  26999 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,17n,47p,1120b,436s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/MiKTeX 2.9/fonts/enc/dvips/fontnam
-e/8r.enc}<D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmmi10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D
-:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi9.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-r10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr6.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr7.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy9.pfb><D:/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><D:/M
-iKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/MiKTeX 2.9/fonts/type1/urw/times
-/utmri8a.pfb>
-Output written on aaai_main.pdf (7 pages, 657275 bytes).
+{D:/MiKTeX 2.9/fonts/enc/dvips/fontname
+/8r.enc}<D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi9.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr6.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr7.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy9.pfb><D:/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><D:/Mi
+KTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/MiKTeX 2.9/fonts/type1/urw/times/
+utmri8a.pfb>
+Output written on aaai_main.pdf (7 pages, 697800 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
+ 110 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -38,20 +38,13 @@ Daum{\'e}~III, H.; Kumar, A.; and Saha, A.
 Deng, J.; Dong, W.; Socher, R.; Li, L.-J.; Li, K.; and Fei-Fei, L.
 \newblock 2009.
 \newblock {ImageNet: A Large-Scale Hierarchical Image Database}.
-\newblock In {\em CVPR09}.
+\newblock In {\em The IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}.
 
 \bibitem[\protect\citeauthoryear{Donahue \bgroup et al\mbox.\egroup
-  }{2013a}]{donahue2013semi}
+  }{2013}]{Donahue_2013_CVPR}
 Donahue, J.; Hoffman, J.; Rodner, E.; Saenko, K.; and Darrell, T.
-\newblock 2013a.
-\newblock Semi-supervised domain adaptation with instance constraints.
-\newblock In {\em Proceedings of the IEEE conference on computer vision and
-  pattern recognition},  668--675.
-
-\bibitem[\protect\citeauthoryear{Donahue \bgroup et al\mbox.\egroup
-  }{2013b}]{Donahue_2013_CVPR}
-Donahue, J.; Hoffman, J.; Rodner, E.; Saenko, K.; and Darrell, T.
-\newblock 2013b.
+\newblock 2013.
 \newblock Semi-supervised domain adaptation with instance constraints.
 \newblock In {\em The IEEE Conference on Computer Vision and Pattern
   Recognition (CVPR)}.
@@ -61,14 +54,16 @@ Donahue, J.; Hoffman, J.; Rodner, E.; Saenko, K.; and Darrell, T.
 Duan, L.; Xu, D.; Tsang, I. W.-H.; and Luo, J.
 \newblock 2012.
 \newblock Visual event recognition in videos by learning from web data.
-\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence}
-  34(9):1667--1680.
+\newblock volume~34,  1667--1680.
+\newblock IEEE.
 
 \bibitem[\protect\citeauthoryear{Duan, Xu, and Tsang}{2012}]{duan2012learning}
-Duan, L.; Xu, D.; and Tsang, I.
+Duan, L.; Xu, D.; and Tsang, I.~W.
 \newblock 2012.
 \newblock Learning with augmented features for heterogeneous domain adaptation.
-\newblock {\em arXiv preprint arXiv:1206.4660}.
+\newblock In {\em Proceedings of the International Conference on Machine
+  Learning},  711--718.
+\newblock Edinburgh, Scotland: Omnipress.
 
 \bibitem[\protect\citeauthoryear{Gupta, Hoffman, and
   Malik}{2016}]{Gupta_2016_CVPR}
@@ -79,11 +74,11 @@ Gupta, S.; Hoffman, J.; and Malik, J.
   Recognition (CVPR)}.
 
 \bibitem[\protect\citeauthoryear{Hinton, Vinyals, and
-  Dean}{2015}]{hinton2015distilling}
+  Dean}{2014}]{hinton2015distilling}
 Hinton, G.; Vinyals, O.; and Dean, J.
-\newblock 2015.
+\newblock 2014.
 \newblock Distilling the knowledge in a neural network.
-\newblock {\em arXiv preprint arXiv:1503.02531}.
+\newblock {\em NIPS Deep Learning and Representation Learning Workshop}.
 
 \bibitem[\protect\citeauthoryear{Karl, Bidigare, and
   Letelier}{2001}]{karl2001long}
@@ -99,7 +94,8 @@ Karl, D.; Bidigare, R.; and Letelier, R.
 Krizhevsky, A.; Sutskever, I.; and Hinton, G.~E.
 \newblock 2012.
 \newblock Imagenet classification with deep convolutional neural networks.
-\newblock In {\em NIPS},  1106--1114.
+\newblock In {\em Advances in neural information processing systems},
+  1106--1114.
 
 \bibitem[\protect\citeauthoryear{Kuzborskij and
   Orabona}{2013}]{kuzborskij2013stability}
@@ -110,11 +106,11 @@ Kuzborskij, I., and Orabona, F.
   Learning},  942--950.
 
 \bibitem[\protect\citeauthoryear{Lopez-Paz \bgroup et al\mbox.\egroup
-  }{2015}]{lopez2015unifying}
-Lopez-Paz, D.; Bottou, L.; Sch{\"o}lkopf, B.; and Vapnik, V.
-\newblock 2015.
+  }{2016}]{lopez2015unifying}
+Lopez-Paz, D.; Sch{\"o}lkopf, B.; Bottou, L.; and Vapnik, V.
+\newblock 2016.
 \newblock Unifying distillation and privileged information.
-\newblock {\em arXiv preprint arXiv:1511.03643}.
+\newblock In {\em International Conference on Learning Representations}.
 
 \bibitem[\protect\citeauthoryear{Luo \bgroup et al\mbox.\egroup
   }{2016}]{luo2016face}
@@ -136,15 +132,16 @@ Motiian, S.; Piccirilli, M.; Adjeroh, D.~A.; and Doretto, G.
 Pan, S.~J., and Yang, Q.
 \newblock 2010.
 \newblock A survey on transfer learning.
-\newblock {\em Knowledge and Data Engineering, IEEE Transactions on}
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering}
   22(10):1345--1359.
 
 \bibitem[\protect\citeauthoryear{Romero \bgroup et al\mbox.\egroup
-  }{2014}]{romero2014fitnets}
+  }{2015}]{romero2014fitnets}
 Romero, A.; Ballas, N.; Kahou, S.~E.; Chassang, A.; Gatta, C.; and Bengio, Y.
-\newblock 2014.
+\newblock 2015.
 \newblock Fitnets: Hints for thin deep nets.
-\newblock {\em arXiv preprint arXiv:1412.6550}.
+\newblock In {\em In Proceedings of International Conference on Learning
+  Representations}.
 
 \bibitem[\protect\citeauthoryear{Shalev-Shwartz \bgroup et al\mbox.\egroup
   }{2011}]{shalev2011pegasos}
@@ -169,12 +166,13 @@ Tzeng, E.; Hoffman, J.; Darrell, T.; and Saenko, K.
 
 \bibitem[\protect\citeauthoryear{Urban \bgroup et al\mbox.\egroup
   }{2016}]{urban2016deep}
-Urban, G.; Geras, K.~J.; Kahou, S.~E.; Aslan, O.; Wang, S.; Caruana, R.;
+Urban, G.; Geras, K.~J.; Kahou, S.~E.; Aslan, O.; Wang, S.; Caruana, R.; rahman
   Mohamed, A.; Philipose, M.; and Richardson, M.
 \newblock 2016.
 \newblock Do deep convolutional nets really need to be deep (or even
   convolutional)?
-\newblock {\em arXiv preprint arXiv:1603.05691}.
+\newblock In {\em International Conference on Learning Representations
+  (workshop track)}.
 
 \bibitem[\protect\citeauthoryear{Vapnik and
   Izmailov}{2015}]{vapnik2015learning}
@@ -188,7 +186,7 @@ Vapnik, V., and Izmailov, R.
 Vapnik, V.~N.
 \newblock 1999.
 \newblock An overview of statistical learning theory.
-\newblock {\em IEEE transactions on neural networks} 10(5):988--999.
+\newblock {\em IEEE Transactions on Neural Networks} 10(5):988--999.
 
 \bibitem[\protect\citeauthoryear{Yao \bgroup et al\mbox.\egroup
   }{2015}]{yao2015semi}
@@ -196,7 +194,7 @@ Yao, T.; Pan, Y.; Ngo, C.-W.; Li, H.; and Mei, T.
 \newblock 2015.
 \newblock Semi-supervised domain adaptation with subspace learning for visual
   recognition.
-\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
-  Pattern Recognition},  2142--2150.
+\newblock In {\em The IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)},  2142--2150.
 
 \end{thebibliography}

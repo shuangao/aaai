@@ -1,4 +1,9 @@
 As we mentioned, GDDA is a paradigm using generalized distillation for domain adaptation. In this section, we first give a brief review of generalized distillation. Then we show the process of GDDA and demonstrate the reason why GDDA can work with the SSDA problem. Finally, we show that to achieve an optimal model, we should carefully set the value of imitation parameter to minimize the training error. 
+\begin{figure}
+\centering
+\includegraphics[scale=.4]{figure/GD.png}
+\caption{Illustration of Generalized Distillation training process.}
+\end{figure}
 \subsection{An overview of generalized distillation and GDDA}
 \textit{Distillation} \cite{hinton2015distilling} and \textit{Learning Using Privileged Information} (LUPI) \cite{vapnik2015learning} are two paradigms that enable machines to learn from other machines. Both methods address the problem how to build a student model that can learn from the advanced teacher models. Recently, Lopez {et al.} \cite{lopez2015unifying} proposed a framework called \textit{generalized distillation} that unifies both techniques and show that it can be applied in many scenarios.
 
