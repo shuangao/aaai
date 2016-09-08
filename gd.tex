@@ -1,4 +1,4 @@
-As we mentioned, GDSDA is a paradigm using generalized distillation for domain adaptation. In this section, we first give a brief review of generalized distillation. Then we show the process of GDSDA and demonstrate the reason why GDSDA can work with the SDA problem. Finally, we show that to achieve an optimal model, we should carefully set the value of imitation parameter to minimize the training error. 
+As we mentioned, GDSDA is a paradigm using generalized distillation for domain adaptation. In this section, we first give a brief review of generalized distillation. Then we show the process of GDSDA and demonstrate the reason why GDSDA can work with the SDA problem. Finally, we show that to achieve an optimal target model in practice, we should carefully set the value of imitation parameter to minimize the training error. 
 \begin{figure}
 \centering
 \includegraphics[scale=.4]{figure/GD.png}
@@ -18,8 +18,8 @@ s_i=\sigma(f^{(t)}(x_i)/T)
 where $T$ is a parameter called temperature to control the smoothness of the soft label. In step 3, learn the student ${f}^{(s)}$ using the pair $\{\left(x_i,y_i\right),\left(x_i,s_i\right)\}_{i=1}^n$ using:
 \begin{equation}\label{eq:distill}
 \begin{aligned}
-f^{(s)}=&\underset{f^{(s)} \in \mathcal{F}^{(s)}}{\arg \min}\frac{1}{n}\sum_{i=1}^{n}[\lambda\ell\left(y_i,\sigma(f^{(s)}(x_i))\right)\\
-&+(1-\lambda)\ell\left(s_i,\sigma(f^{(s)}(x_i))\right)]\\
+f^{(s)}=&\underset{f^{(s)} \in \mathcal{F}^{(s)}}{\arg \min}\frac{1}{n}\sum_{i=1}^{n}\bigg[\lambda\ell\left(y_i,\sigma(f^{(s)}(x_i))\right)\\
+&+(1-\lambda)\ell\left(s_i,\sigma(f^{(s)}(x_i))\right)\bigg]\\
 \end{aligned}
 \end{equation}
 Here, $\lambda$ is the imitation parameter to balance the importance between the hard label $y_i$ and the soft label $s_i$.

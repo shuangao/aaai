@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  8 SEP 2016 10:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  8 SEP 2016 16:18
 entering extended mode
 **./aaai_main.tex
 (aaai_main.tex
@@ -495,7 +495,7 @@ File: figure/dslrtoamazonlabeled1unlabeled10.png Graphic file (type png)
 
 <use figure/dslrtoamazonlabeled1unlabeled10.png>
 Package pdftex.def Info: figure/dslrtoamazonlabeled1unlabeled10.png used on inp
-ut line 19.
+ut line 20.
 (pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
 
 <figure/dslrtoamazonlabeled1unlabeled15.png, id=39, 578.16pt x 361.35pt>
@@ -503,7 +503,7 @@ File: figure/dslrtoamazonlabeled1unlabeled15.png Graphic file (type png)
 
 <use figure/dslrtoamazonlabeled1unlabeled15.png>
 Package pdftex.def Info: figure/dslrtoamazonlabeled1unlabeled15.png used on inp
-ut line 20.
+ut line 21.
 (pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
 
 <figure/dslrtoamazonlabeled1unlabeled20.png, id=40, 578.16pt x 361.35pt>
@@ -511,7 +511,7 @@ File: figure/dslrtoamazonlabeled1unlabeled20.png Graphic file (type png)
 
 <use figure/dslrtoamazonlabeled1unlabeled20.png>
 Package pdftex.def Info: figure/dslrtoamazonlabeled1unlabeled20.png used on inp
-ut line 21.
+ut line 22.
 (pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
 
 <figure/webcamtoamazonlabeled1unlabeled10.png, id=41, 578.16pt x 361.35pt>
@@ -519,7 +519,7 @@ File: figure/webcamtoamazonlabeled1unlabeled10.png Graphic file (type png)
 
 <use figure/webcamtoamazonlabeled1unlabeled10.png>
 Package pdftex.def Info: figure/webcamtoamazonlabeled1unlabeled10.png used on i
-nput line 22.
+nput line 23.
 (pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
 
 <figure/webcamtoamazonlabeled1unlabeled15.png, id=42, 578.16pt x 361.35pt>
@@ -527,7 +527,7 @@ File: figure/webcamtoamazonlabeled1unlabeled15.png Graphic file (type png)
 
 <use figure/webcamtoamazonlabeled1unlabeled15.png>
 Package pdftex.def Info: figure/webcamtoamazonlabeled1unlabeled15.png used on i
-nput line 23.
+nput line 24.
 (pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
 
 <figure/webcamtoamazonlabeled1unlabeled20.png, id=43, 578.16pt x 361.35pt>
@@ -535,13 +535,13 @@ File: figure/webcamtoamazonlabeled1unlabeled20.png Graphic file (type png)
 
 <use figure/webcamtoamazonlabeled1unlabeled20.png>
 Package pdftex.def Info: figure/webcamtoamazonlabeled1unlabeled20.png used on i
-nput line 24.
+nput line 25.
 (pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
 
 <figure/cmp.png, id=44, 722.7pt x 289.08pt>
 File: figure/cmp.png Graphic file (type png)
  <use figure/cmp.png>
-Package pdftex.def Info: figure/cmp.png used on input line 36.
+Package pdftex.def Info: figure/cmp.png used on input line 37.
 (pdftex.def)             Requested size: 216.81166pt x 86.72466pt.
 )
 (aaai_main.bbl [6 <./figure/dslrtoamazonlabeled1unlabeled10.png> <./figure/dslr
@@ -573,7 +573,7 @@ es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on aaai_main.pdf (7 pages, 695211 bytes).
+Output written on aaai_main.pdf (7 pages, 695343 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

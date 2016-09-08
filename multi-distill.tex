@@ -1,6 +1,6 @@
 In step 3 of GDSDA, we have to decide the value for the imitation parameter. According to \eqref{eq:lambda_constraint}, to achieve the best performance of the target model, the imitation parameter should be set to minimize the training error. In this section, we illustrate our method GDSDA-SVM that uses SVM as the base learner and can effectively estimate the imitation parameter.
 \subsection{Distillation with multiple sources}
-As we discussed Section \ref{sec:key}, we should find a method that can estimate the optimal imitation parameter effectively for real applications. 
+As we discussed above, we should find a method that can estimate the optimal imitation parameter effectively for real applications. 
 To solve this problem, we propose a novel method that can determine the imitation parameter $\lambda$ autonomously, called GDSDA-SVM. In our GDSDA-SVM, instead of using cross-entropy loss, we use Mean Squared Error (MSE) as our loss function for the following two reasons: (1) Some recently work \cite{ba2014deep,luo2016face,romero2014fitnets,urban2016deep} show that MSE is also an efficient measurement for the targets model to mimic the behavior of the source model. (2) MSE can provide a closed form cross-validation error estimation and help us to choose the proper imitation parameter effectively. 
 
 \begin{figure}
