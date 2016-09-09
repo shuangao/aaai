@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  8 SEP 2016 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  8 SEP 2016 21:36
 entering extended mode
 **./aaai_main.tex
 (aaai_main.tex
@@ -453,16 +453,21 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
- (intro2.tex [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-
-
-]) (work2.tex)
-Underfull \hbox (badness 1215) in paragraph at lines 5--67
-[]\OT1/ptm/m/n/10 There are also many works re-lated to GD in com-
+Underfull \hbox (badness 1147) in paragraph at lines 52--54
+\OT1/ptm/m/n/9 plied in many real ap-pli-ca-tions. In this pa-per, we
  []
 
-(gd.tex <figure/GD.png, id=14, 484.209pt x 163.812pt>
+
+Underfull \hbox (badness 1400) in paragraph at lines 52--54
+\OT1/ptm/m/n/9 pa-ram-e-ter es-ti-ma-tion method, called GDSDA-SVM
+ []
+
+(intro2.tex [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+
+]) (work2.tex) (gd.tex <figure/GD.png, id=11, 484.209pt x 163.812pt>
 File: figure/GD.png Graphic file (type png)
  <use figure/GD.png>
 Package pdftex.def Info: figure/GD.png used on input line 4.
@@ -573,7 +578,7 @@ es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on aaai_main.pdf (7 pages, 695343 bytes).
+Output written on aaai_main.pdf (7 pages, 695294 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
