@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  8 SEP 2016 21:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  14 SEP 2016 11:40
 entering extended mode
 **./aaai_main.tex
 (aaai_main.tex
@@ -453,45 +453,44 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
-
-Underfull \hbox (badness 1147) in paragraph at lines 52--54
-\OT1/ptm/m/n/9 plied in many real ap-pli-ca-tions. In this pa-per, we
- []
-
-
-Underfull \hbox (badness 1400) in paragraph at lines 52--54
-\OT1/ptm/m/n/9 pa-ram-e-ter es-ti-ma-tion method, called GDSDA-SVM
- []
-
-(intro2.tex [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+ (intro2.tex [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 
-]) (work2.tex) (gd.tex <figure/GD.png, id=11, 484.209pt x 163.812pt>
+]) (work2.tex) (gd.tex
+<figure/GD.png, id=11, 484.209pt x 163.812pt>
 File: figure/GD.png Graphic file (type png)
  <use figure/GD.png>
 Package pdftex.def Info: figure/GD.png used on input line 4.
 (pdftex.def)             Requested size: 193.68016pt x 65.52362pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-)
-(GDDA.tex [2 <./figure/GD.png>] [3]) (multi-distill.tex
+) (GDDA.tex
+[2 <./figure/GD.png>] [3]) (multi-distill.tex
 <figure/multi-GDDA.png, id=29, 622.9674pt x 246.1998pt>
 File: figure/multi-GDDA.png Graphic file (type png)
 
 <use figure/multi-GDDA.png>
-Package pdftex.def Info: figure/multi-GDDA.png used on input line 8.
+Package pdftex.def Info: figure/multi-GDDA.png used on input line 12.
 (pdftex.def)             Requested size: 249.18254pt x 98.47816pt.
 
-Overfull \hbox (9.78816pt too wide) in paragraph at lines 8--9
+Overfull \hbox (9.78816pt too wide) in paragraph at lines 12--13
  [][] 
  []
 
+
+Underfull \vbox (badness 1990) has occurred while \output is active []
+
+
+Overfull \hbox (5.42395pt too wide) detected at line 32
+[] []
+ []
+
 [4 <./figure/multi-GDDA.png>]
-Underfull \hbox (badness 1077) in paragraph at lines 96--97
+Underfull \hbox (badness 1264) in paragraph at lines 105--106
 []\OT1/ptm/m/n/10 Input ex-am-ples $\OML/cmm/m/it/10 X \OT1/cmr/m/n/10 = \OMS/c
-msy/m/n/10 f\OML/cmm/m/it/10 x[]; :::; x[]\OMS/cmsy/m/n/10 g$\OT1/ptm/m/n/10 , 
-num-ber of
+msy/m/n/10 f[][]\OML/cmm/m/it/10 ; :::; [][]\OMS/cmsy/m/n/10 g$\OT1/ptm/m/n/10 
+, num-ber of
  []
 
 ) (exp.tex [5]
@@ -500,7 +499,7 @@ File: figure/dslrtoamazonlabeled1unlabeled10.png Graphic file (type png)
 
 <use figure/dslrtoamazonlabeled1unlabeled10.png>
 Package pdftex.def Info: figure/dslrtoamazonlabeled1unlabeled10.png used on inp
-ut line 20.
+ut line 22.
 (pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
 
 <figure/dslrtoamazonlabeled1unlabeled15.png, id=39, 578.16pt x 361.35pt>
@@ -508,7 +507,7 @@ File: figure/dslrtoamazonlabeled1unlabeled15.png Graphic file (type png)
 
 <use figure/dslrtoamazonlabeled1unlabeled15.png>
 Package pdftex.def Info: figure/dslrtoamazonlabeled1unlabeled15.png used on inp
-ut line 21.
+ut line 23.
 (pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
 
 <figure/dslrtoamazonlabeled1unlabeled20.png, id=40, 578.16pt x 361.35pt>
@@ -516,7 +515,7 @@ File: figure/dslrtoamazonlabeled1unlabeled20.png Graphic file (type png)
 
 <use figure/dslrtoamazonlabeled1unlabeled20.png>
 Package pdftex.def Info: figure/dslrtoamazonlabeled1unlabeled20.png used on inp
-ut line 22.
+ut line 24.
 (pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
 
 <figure/webcamtoamazonlabeled1unlabeled10.png, id=41, 578.16pt x 361.35pt>
@@ -524,7 +523,7 @@ File: figure/webcamtoamazonlabeled1unlabeled10.png Graphic file (type png)
 
 <use figure/webcamtoamazonlabeled1unlabeled10.png>
 Package pdftex.def Info: figure/webcamtoamazonlabeled1unlabeled10.png used on i
-nput line 23.
+nput line 25.
 (pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
 
 <figure/webcamtoamazonlabeled1unlabeled15.png, id=42, 578.16pt x 361.35pt>
@@ -532,7 +531,7 @@ File: figure/webcamtoamazonlabeled1unlabeled15.png Graphic file (type png)
 
 <use figure/webcamtoamazonlabeled1unlabeled15.png>
 Package pdftex.def Info: figure/webcamtoamazonlabeled1unlabeled15.png used on i
-nput line 24.
+nput line 26.
 (pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
 
 <figure/webcamtoamazonlabeled1unlabeled20.png, id=43, 578.16pt x 361.35pt>
@@ -540,47 +539,48 @@ File: figure/webcamtoamazonlabeled1unlabeled20.png Graphic file (type png)
 
 <use figure/webcamtoamazonlabeled1unlabeled20.png>
 Package pdftex.def Info: figure/webcamtoamazonlabeled1unlabeled20.png used on i
-nput line 25.
+nput line 27.
 (pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
 
 <figure/cmp.png, id=44, 722.7pt x 289.08pt>
 File: figure/cmp.png Graphic file (type png)
  <use figure/cmp.png>
-Package pdftex.def Info: figure/cmp.png used on input line 37.
+Package pdftex.def Info: figure/cmp.png used on input line 39.
 (pdftex.def)             Requested size: 216.81166pt x 86.72466pt.
 )
 (aaai_main.bbl [6 <./figure/dslrtoamazonlabeled1unlabeled10.png> <./figure/dslr
 toamazonlabeled1unlabeled15.png> <./figure/dslrtoamazonlabeled1unlabeled20.png>
  <./figure/webcamtoamazonlabeled1unlabeled10.png> <./figure/webcamtoamazonlabel
-ed1unlabeled15.png> <./figure/webcamtoamazonlabeled1unlabeled20.png>]) [7 <./fi
-gure/cmp.png>] (aaai_main.aux) ) 
+ed1unlabeled15.png> <./figure/webcamtoamazonlabeled1unlabeled20.png>] [7 <./fig
+ure/cmp.png>]) [8
+
+] (aaai_main.aux) ) 
 Here is how much of TeX's memory you used:
- 5339 strings out of 493334
- 79720 string characters out of 3139229
- 166284 words of memory out of 3000000
- 8717 multiletter control sequences out of 15000+200000
- 26999 words of font info for 59 fonts, out of 3000000 for 9000
+ 5345 strings out of 493334
+ 79781 string characters out of 3139229
+ 165353 words of memory out of 3000000
+ 8723 multiletter control sequences out of 15000+200000
+ 28037 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,19n,49p,1123b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fo
-ntname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
-.pfb>
-Output written on aaai_main.pdf (7 pages, 695294 bytes).
+ 44i,19n,49p,1088b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc
+}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
+r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on aaai_main.pdf (8 pages, 693788 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
+ 113 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
