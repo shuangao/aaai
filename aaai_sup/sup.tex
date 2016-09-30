@@ -1,0 +1,60 @@
+\begin{theorem}
+Let $L_c(\lambda)$ be a strongly convex function and $\lambda^*$ be its optimal solution.Let $\lambda_1,...,\lambda_{T+1}$ be a sequence such that $\lambda_t \in B$ where $B$ is a closed convex set. For $t>1$, we have $\lambda_{t+1} = \lambda_t - \eta_t \Delta_t$ , where $\Delta_t$ is the sub-gradient of $L(\lambda_t)$ and $\eta_t = 1/t$. Assume we have $||\Delta_t|| \leq G$ for all $t$. Then we have:	
+	\begin{equation}
+	L_c(\lambda_{T+1}) \leq L_c(\lambda^*)+\frac{G^2(1+\ln (T))}{2T}
+	\end{equation}
+\end{theorem}
+	As $L_c(\lambda)$ is strongly convex and $\Delta_t$ is in its sub-gradient set at $\lambda_t$, according to the definition of strong convexity, the following inequality holds:	
+	\begin{equation}\label{eq:app:strong}
+		\left\langle {\lambda_t - \lambda^*,\Delta_t} \right\rangle \geq L(\lambda_t)-L(\lambda^*)+\frac{1}{2}||\lambda_t - \lambda^*||^2
+	\end{equation} 
+	For the term $\left\langle {\lambda_t - \lambda^*,\Delta_y} \right\rangle$, it can be written as:	
+	\begin{equation} \label{eq:app:inner}
+	\begin{aligned}
+	\left\langle {\lambda_t - \lambda^*,\Delta_t} \right\rangle &= \left\langle {\lambda_t - \frac{1}{2}\eta_t\Delta_t + \frac{1}{2}\eta_t\Delta_t- \lambda^*,\Delta_t} \right\rangle\\
+	&=\frac{1}{2}\left\langle {\left[ {\left( {{\lambda _t} - {\eta _t}{\Delta _t}} \right) - {\lambda ^*}} \right] + \left( {{\lambda _t} - {\lambda ^*}} \right) + {\eta _t}{\Delta _t},{\Delta _t}} \right\rangle \\
+	&= \frac{1}{2}\left\langle {\left( {{\lambda _{t + 1}} - {\lambda ^*}} \right) + \left( {{\lambda _t} - {\lambda ^*}} \right),{\Delta _t}} \right\rangle  + \frac{1}{2}{\eta _t}\Delta _t^2\\
+	&=\frac{1}{2}\left\langle {{\lambda _{t + 1}} + {\lambda _t} - 2{\lambda ^*},{\Delta _t}} \right\rangle  + \frac{1}{2}{\eta _t}\Delta _t^2
+	\end{aligned}
+	\end{equation}	
+	Then we have:
+	\begin{equation}\label{eq:app:squrediff}
+	\begin{aligned}
+	||\lambda_t-\lambda^*||^2-||\lambda_{t+1}-\lambda^*||^2 &= ( {{\lambda _t} - {\lambda _{t + 1}}})  ({{\lambda _t} + {\lambda _{t + 1}} - 2{\lambda ^*}}) \\
+	&=\left\langle {{\lambda _{t + 1}} + {\lambda _t} - 2{\lambda ^*},{\eta_t\Delta _t}} \right\rangle
+	\end{aligned}
+	\end{equation}
+	Using the assumption $||\Delta_t|| \leq G$, we can rearrange \eqref{eq:app:strong} and plug \eqref{eq:app:inner} and \eqref{eq:app:squrediff} into it, we have:	
+	\begin{equation}\label{eq:app:it_diff}
+	\begin{aligned}
+	&{Diff}_t = L_c(\lambda_t)-L_c(\lambda^*)\\
+	 &\leq \frac{{||{\lambda _t} - {\lambda ^*}|{|^2} - ||{\lambda _{t + 1}} - {\lambda ^*}|{|^2}}}{{2{\eta _t}}} - \frac{1 }{2}||{\lambda _t} - {\lambda ^*}|{|^2} + \frac{1}{2}{\eta _t}\Delta _t^2 \\
+	&\leq \frac{{||{\lambda _t} - {\lambda ^*}|{|^2} - ||{\lambda _{t + 1}} - {\lambda ^*}|{|^2}}}{{2{\eta _t}}} - \frac{\lambda }{2}||{\lambda _t} - {\lambda ^*}|{|^2} + \frac{1}{2}{\eta _t} G^2\\
+	&=\frac{ (t-1)}{2}{||{\lambda _t} - {\lambda ^*}||^2}- \frac{ t}{2}{||{\lambda _{t+1}} - {\lambda ^*}||^2}+\frac{1}{2}{\eta _t} G^2
+	\end{aligned}
+	\end{equation}	
+	Due to the strong convexity, for each pair of $L_c(\lambda_t)$ and $L_c(\lambda_{t+1})$ and $t=1,...,T$, according to \eqref{eq:app:strong}, we have:	
+	\begin{equation}
+	\begin{aligned}
+	L_c({\lambda _{t + 1}}) - L_c({\lambda _t}) &\le \left\langle {{\lambda _{t + 1}} - {\lambda _t},{\Delta _t}} \right\rangle  - \frac{1 }{2}||{\lambda _{t + 1}} -\lambda_t |{|^2} \\
+	&=  - \eta_t\Delta _t^2 (1-\frac{1}{2t}) \leq 0
+	\end{aligned}
+	\end{equation}
+	Therefore, we have the following sequence $L_c(\lambda^*) \leq L_c(\lambda_T) \leq L_c(\lambda_{T-1}) \leq...\leq L_c(\lambda_1)$. 
+	For the sequence $Diff_t$ for $t=1,...,T$, we have:	
+	\begin{equation} \label{eq:app:difsum}
+	\sum_{t=1}^{T} Diff_t =  \sum_{t=1}^{T}L_c(\lambda_t)-TL_c(\lambda^*) \geq T\left[L_c(\lambda_T)-L_c(\lambda^*)\right]
+	\end{equation}	
+	Next, we show that 	
+	\begin{equation}
+	\begin{aligned}
+	&\sum_{t=1}^{T} Diff_t =\\
+	&\sum_{t=1}^{T}\left\{\frac{(t-1)}{2}{||{\lambda _t} - {\lambda ^*}||^2}- \frac{t}{2}{||{\lambda _{t+1}} - {\lambda ^*}||^2}+\frac{1}{2}{\eta _t} G^2\right\} \\
+	&=-\frac{T}{2}{||{\lambda _{T+1}-\lambda^*}||^2} + \frac{G^2}{2}\sum_{t=1}^{T} \frac{1}{t}\\
+	&\leq \frac{G^2}{2}\sum_{t=1}^{T} \frac{1}{t} \leq \frac{G^2}{2}(1+\ln(T))
+	\end{aligned}
+	\end{equation}	
+	Combining \eqref{eq:app:difsum} and rearranging the result, we have:
+	\begin{equation*}
+	L_c(\lambda_{T+1}) \leq L_c(\lambda^*)+\frac{G^2(1+\ln (T))}{2T}
+	\end{equation*}

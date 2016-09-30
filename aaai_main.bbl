@@ -142,19 +142,19 @@ Romero, A.; Ballas, N.; Kahou, S.~E.; Chassang, A.; Gatta, C.; and Bengio, Y.
 \newblock In {\em In Proceedings of International Conference on Learning
   Representations}.
 
-\bibitem[\protect\citeauthoryear{Shalev-Shwartz \bgroup et al\mbox.\egroup
-  }{2011}]{shalev2011pegasos}
-Shalev-Shwartz, S.; Singer, Y.; Srebro, N.; and Cotter, A.
-\newblock 2011.
-\newblock Pegasos: Primal estimated sub-gradient solver for svm.
-\newblock {\em Mathematical programming} 127(1):3--30.
-
 \bibitem[\protect\citeauthoryear{Sharmanska, Quadrianto, and
   Lampert}{2013}]{Sharmanska_2013_ICCV}
 Sharmanska, V.; Quadrianto, N.; and Lampert, C.~H.
 \newblock 2013.
 \newblock Learning to rank using privileged information.
 \newblock In {\em The IEEE International Conference on Computer Vision (ICCV)}.
+
+\bibitem[\protect\citeauthoryear{Suykens and
+  Vandewalle}{1999}]{suykens1999least}
+Suykens, J.~A., and Vandewalle, J.
+\newblock 1999.
+\newblock Least squares support vector machine classifiers.
+\newblock {\em Neural processing letters} 9(3):293--300.
 
 \bibitem[\protect\citeauthoryear{Tommasi, Orabona, and
   Caputo}{2014}]{tommasi2014learning}

@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  14 SEP 2016 23:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  14 SEP 2016 23:21
 entering extended mode
-**./aaai_main.tex
-(aaai_main.tex
+**./supplementary.tex
+(supplementary.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -357,24 +357,25 @@ Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\courier.sty"
 Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
-) (aaai_main.aux)
-\openout1 = `aaai_main.aux'.
+)
+\c@theorem=\count129
+ (supplementary.aux)
+\openout1 = `supplementary.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 39.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 40.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -421,171 +422,89 @@ Package caption Info: End \AtBeginDocument code.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count129
+\scratchcounter=\count130
 \scratchdimen=\dimen148
 \scratchbox=\box34
-\nofMPsegments=\count130
-\nofMParguments=\count131
+\nofMPsegments=\count131
+\nofMParguments=\count132
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count132
+\MPscratchCnt=\count133
 \MPscratchDim=\dimen149
-\MPnumerator=\count133
-\makeMPintoPDFobject=\count134
+\MPnumerator=\count134
+\makeMPintoPDFobject=\count135
 \everyMPtoPDFconversion=\toks31
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 49.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 50.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
 
 
 LaTeX Warning: No \author given.
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 49.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 50.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+ (sup.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
- (intro2.tex [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
 
-
-
-]) (work2.tex) (gd.tex
-<figure/GD.png, id=9, 484.209pt x 163.812pt>
-File: figure/GD.png Graphic file (type png)
- <use figure/GD.png>
-Package pdftex.def Info: figure/GD.png used on input line 4.
-(pdftex.def)             Requested size: 169.47568pt x 57.33505pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-) (GDDA.tex
-[2 <./figure/GD.png>]
-
-Package caption Warning: \label without proper reference on input line 10.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:GDSDA' on page 3 undefined on input line 36.
-
-[3]) (multi-distill.tex
-<figure/multi-GDDA.png, id=27, 622.9674pt x 246.1998pt>
-File: figure/multi-GDDA.png Graphic file (type png)
-
-<use figure/multi-GDDA.png>
-Package pdftex.def Info: figure/multi-GDDA.png used on input line 12.
-(pdftex.def)             Requested size: 186.89166pt x 73.8605pt.
-
-Overfull \hbox (4.70868pt too wide) detected at line 31
+Overfull \hbox (27.304pt too wide) detected at line 19
 [] []
  []
 
-[4 <./figure/multi-GDDA.png>]
-Underfull \hbox (badness 1264) in paragraph at lines 105--106
-[]\OT1/ptm/m/n/10 Input ex-am-ples $\OML/cmm/m/it/10 X \OT1/cmr/m/n/10 = \OMS/c
-msy/m/n/10 f[][]\OML/cmm/m/it/10 ; :::; [][]\OMS/cmsy/m/n/10 g$\OT1/ptm/m/n/10 
-, num-ber of
+
+Overfull \hbox (18.48058pt too wide) detected at line 26
+[] []
  []
 
-) (exp.tex [5]
-<figure/dslrtoamazonlabeled1unlabeled10.png, id=36, 578.16pt x 361.35pt>
-File: figure/dslrtoamazonlabeled1unlabeled10.png Graphic file (type png)
 
-<use figure/dslrtoamazonlabeled1unlabeled10.png>
-Package pdftex.def Info: figure/dslrtoamazonlabeled1unlabeled10.png used on inp
-ut line 23.
-(pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
-
-<figure/dslrtoamazonlabeled1unlabeled15.png, id=37, 578.16pt x 361.35pt>
-File: figure/dslrtoamazonlabeled1unlabeled15.png Graphic file (type png)
-
-<use figure/dslrtoamazonlabeled1unlabeled15.png>
-Package pdftex.def Info: figure/dslrtoamazonlabeled1unlabeled15.png used on inp
-ut line 24.
-(pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
-
-<figure/dslrtoamazonlabeled1unlabeled20.png, id=38, 578.16pt x 361.35pt>
-File: figure/dslrtoamazonlabeled1unlabeled20.png Graphic file (type png)
-
-<use figure/dslrtoamazonlabeled1unlabeled20.png>
-Package pdftex.def Info: figure/dslrtoamazonlabeled1unlabeled20.png used on inp
-ut line 25.
-(pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
-
-<figure/webcamtoamazonlabeled1unlabeled10.png, id=39, 578.16pt x 361.35pt>
-File: figure/webcamtoamazonlabeled1unlabeled10.png Graphic file (type png)
-
-<use figure/webcamtoamazonlabeled1unlabeled10.png>
-Package pdftex.def Info: figure/webcamtoamazonlabeled1unlabeled10.png used on i
-nput line 26.
-(pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
-
-<figure/webcamtoamazonlabeled1unlabeled15.png, id=40, 578.16pt x 361.35pt>
-File: figure/webcamtoamazonlabeled1unlabeled15.png Graphic file (type png)
-
-<use figure/webcamtoamazonlabeled1unlabeled15.png>
-Package pdftex.def Info: figure/webcamtoamazonlabeled1unlabeled15.png used on i
-nput line 27.
-(pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
-
-<figure/webcamtoamazonlabeled1unlabeled20.png, id=41, 578.16pt x 361.35pt>
-File: figure/webcamtoamazonlabeled1unlabeled20.png Graphic file (type png)
-
-<use figure/webcamtoamazonlabeled1unlabeled20.png>
-Package pdftex.def Info: figure/webcamtoamazonlabeled1unlabeled20.png used on i
-nput line 28.
-(pdftex.def)             Requested size: 101.17645pt x 63.23167pt.
-
-Underfull \hbox (badness 1852) in paragraph at lines 31--31
-[]\OT1/ptm/m/n/10 Figure 3: |Ex-per-i-ment re-sults on DSLR$\OMS/cmsy/m/n/10 !$
-\OT1/ptm/m/n/10 Amazon and
+Overfull \hbox (4.07765pt too wide) detected at line 35
+[] []
  []
 
-<figure/cmp.png, id=42, 722.7pt x 289.08pt>
-File: figure/cmp.png Graphic file (type png)
- <use figure/cmp.png>
-Package pdftex.def Info: figure/cmp.png used on input line 36.
-(pdftex.def)             Requested size: 180.67455pt x 72.26982pt.
-)
-(aaai_main.bbl [6 <./figure/dslrtoamazonlabeled1unlabeled10.png> <./figure/dslr
-toamazonlabeled1unlabeled15.png> <./figure/dslrtoamazonlabeled1unlabeled20.png>
- <./figure/webcamtoamazonlabeled1unlabeled10.png> <./figure/webcamtoamazonlabel
-ed1unlabeled15.png> <./figure/webcamtoamazonlabeled1unlabeled20.png> <./figure/
-cmp.png>]) [7] (aaai_main.aux)
 
-LaTeX Warning: There were undefined references.
+Overfull \hbox (4.5496pt too wide) detected at line 47
+[] \OML/cmm/m/it/10 Diff[] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 L[]\OT1/cmr/m/
+n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   \OML/cmm/m/it/10
+ TL[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10  
+\OML/cmm/m/it/10 T []
+ []
 
- ) 
+) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+
+] (supplementary.aux) ) 
 Here is how much of TeX's memory you used:
- 5343 strings out of 493334
- 79766 string characters out of 3139229
- 166385 words of memory out of 3000000
- 8723 multiletter control sequences out of 15000+200000
- 25374 words of font info for 58 fonts, out of 3000000 for 9000
+ 5183 strings out of 493334
+ 76753 string characters out of 3139229
+ 161439 words of memory out of 3000000
+ 8597 multiletter control sequences out of 15000+200000
+ 14619 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,19n,49p,1072b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/u
-tmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on aaai_main.pdf (7 pages, 684632 bytes).
+ 44i,13n,43p,454b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r
+.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on supplementary.pdf (1 page, 114704 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
